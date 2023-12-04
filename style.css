@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+img {
+    width: 48%;
+   height: 90vh;
+   object-fit: cover;
+   object-position: top;
+}
+
+.container--carosel2 {
+    margin-top: 30px;
+    padding: 0px 2.5rem;
+}
+
+.container--carosel {
+    margin-bottom: 80px;
+}
+
+.card {
+    color: #fefefe;
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5625rem;
+    text-align: center;
+    width: 28.125rem;
+    border-radius: 9px;
+    border: 2px solid rgba(0, 0, 0, 0.188);
+    margin-right: 3.125rem;    
+}
+
+
+.container--cards {
+    margin-top: 2.5rem;
+    padding: 0px 4rem;
+}
+
+
+.card img {
+    width: 100%;
+    height: 25rem;
+    object-fit: cover;
+
+}
